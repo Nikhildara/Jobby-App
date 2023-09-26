@@ -1,0 +1,72 @@
+.jobDetails-con {
+  background-color: black;
+}
+.job-details {
+  background-color: #272727;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+}
+.detail-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 20px;
+}
+.launch {
+  color: #6366f1;
+  text-decoration: none;
+}
+.des-vis-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.skill-con {
+  list-style: none;
+  padding-left: 0px;
+
+  gap: 20px;
+  column-count: 2;
+}
+.life-com-con {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.similar_jobs-con {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+  width: 100%;
+}
+.loader-container-job-details {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.retry-con-all-jobDetails {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.life-img {
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .life-com-con {
+    display: flex;
+    flex-direction: row;
+  }
+}

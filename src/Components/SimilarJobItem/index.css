@@ -1,0 +1,11 @@
+.simi-job-con {
+  background-color: #272727;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+@media (min-width: 768px) {
+  .simi-job-con {
+    max-width: 300px;
+  }
+}

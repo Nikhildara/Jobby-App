@@ -1,0 +1,19 @@
+.notFound {
+  background-color: black;
+  height: 100vh;
+  font-family: 'roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.not_head {
+  color: white;
+  font-size: 27px;
+}
+.not_des {
+  color: white;
+  font-size: 18px;
+  max-width: 300px;
+  text-align: center;
+}

@@ -1,0 +1,14 @@
+.skill-img {
+  width: 20px;
+}
+.skill {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: auto;
+}

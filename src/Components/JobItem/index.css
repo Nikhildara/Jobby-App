@@ -1,0 +1,76 @@
+.job-item {
+  background-color: #272727;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0px;
+}
+.company-logo {
+  width: 50px;
+}
+.title-logo-con {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.title {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 5px 0px;
+}
+.star {
+  color: gold;
+  font-size: 17px;
+}
+.rating {
+  color: white;
+  margin: 5px 0px;
+}
+.rating-con {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.loca-empType-lpa-con {
+  display: flex;
+  justify-content: space-between;
+}
+.loc-emp-icon {
+  color: white;
+  font-size: 14px;
+}
+.loc-emp-des {
+  color: white;
+  font-size: 10px;
+}
+.loca-con {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.loca-empType-con {
+  display: flex;
+  gap: 10px;
+}
+.package {
+  color: white;
+  font-size: 15px;
+}
+.des-head {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
+.des {
+  color: white;
+  font-size: 12px;
+}
+@media (min-width: 768px) {
+  .job-item {
+    background-color: #272727;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0px;
+    width: 70vw;
+  }
+}
